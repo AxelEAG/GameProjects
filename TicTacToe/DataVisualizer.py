@@ -20,6 +20,3 @@ for n in range(data.index.size):
 
 figure.tight_layout(pad=2.0)
 plt.show()
-
-
-#plt.plot(kind='hist')

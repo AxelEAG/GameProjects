@@ -4,8 +4,7 @@ image = img.open("ascii-pineapple.jpg")
 width, height = image.size
 # print("Successfully loaded image!")
 # print(f"Image size: {width} x {height}")
-image.resize((int(width*0.6), int(height*0.6)))
-image.show()
+image = image.resize((int(width*0.5), int(height*0.5)))
 width, height = image.size
 
 scale = "`^\",:;Il!i~+_-?][}{1)(|\\/tfjrxnuvczXYUJCLQ0OZmwqpdbkhao*#MW&8%B@$"
